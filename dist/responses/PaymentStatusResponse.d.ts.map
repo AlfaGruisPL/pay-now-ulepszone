@@ -1,0 +1,1 @@
+{"version":3,"file":"PaymentStatusResponse.d.ts","sourceRoot":"","sources":["../../src/responses/PaymentStatusResponse.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,UAAU,CAAC;AAEzC;;;;;GAKG;AACH,MAAM,WAAW,qBAAqB;IAClC;;;;;OAKG;IACH,SAAS,EAAE,MAAM,CAAC;IAElB;;;;;OAKG;IACH,MAAM,EAAE,aAAa,CAAC;CACzB"}

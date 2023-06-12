@@ -1,6 +1,5 @@
 import { Currency } from '../enums';
 import { Buyer } from './Buyer';
-
 /**
  * Payment details
  *
@@ -16,15 +15,12 @@ export interface Payment {
      * @memberof Payment
      */
     amount: number;
-
     /**
      * integer [ 60 .. 864000 ]
      *
      * Timeout for transaction execution [seconds]
      **/
     validityTime: number;
-
-
     /**
      * Currency code
      * defaults to "PLN"
@@ -33,7 +29,6 @@ export interface Payment {
      * @memberof Payment
      */
     currency?: Currency;
-
     /**
      * Unique identifier given by Merchant to this payment request
      *
@@ -41,7 +36,6 @@ export interface Payment {
      * @memberof Payment
      */
     externalId: string;
-
     /**
      * Payment description displayed in the web interface
      *
@@ -49,7 +43,6 @@ export interface Payment {
      * @memberof Payment
      */
     description: string;
-
     /**
      * The URL that the buyer will be redirected to, after making payment.
      * This URL overrides `return_url` value from PoS configuration.
@@ -58,7 +51,6 @@ export interface Payment {
      * @memberof Payment
      */
     continueUrl?: string;
-
     /**
      * Information about buyer
      *
@@ -67,3 +59,4 @@ export interface Payment {
      */
     buyer: Buyer;
 }
+//# sourceMappingURL=Payment.d.ts.map
